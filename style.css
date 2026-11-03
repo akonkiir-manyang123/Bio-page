@@ -1,0 +1,151 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+:root {
+    --ink: #222222;
+    --paper: #f4f4f4;
+    --accent: #234567;
+    --card: #ffffff;
+    --border: #cccccc;
+    --body-size: 1rem;
+    --heading-size: 2rem;
+}
+
+
+
+
+
+
+
+.home {
+    padding: 20px;
+    border: 1px solid black;
+    flex: 1 1 200px;
+}
+
+.services {
+    padding: 20px;
+    border: 1px solid black;
+    flex: 1 1 200px;
+
+@media (min-width: 768px) {
+    .boxes {
+        gap: 1.5rem;
+    }
+}
+
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Main heading */
+h1 {
+    color: #234567;
+}
+
+/* Four flexible boxes */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+/* Individual boxes */
+.about div {
+    flex: 1 1 200px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.home div{
+    flex: 1 1 200px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #234567;
+    border-radius: 8px;
+
+    @media (min-width: 768px) {
+    .boxes {
+        gap: 1.5rem;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--body-size);
+    margin: 20px;
+    background-color: var(--paper);
+    color: var(--ink);
+}
+
+h1 {
+    color: var(--accent);
+    font-size: var(--heading-size);
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.boxes div {
+    flex: 1 1 200px;
+    padding: 20px;
+    background-color: var(--card);
+    color: var(--ink);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .boxes {
+        gap: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Wider screen layout */
+@media (min-width: 768px) {
+    .boxes {
+        gap: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
