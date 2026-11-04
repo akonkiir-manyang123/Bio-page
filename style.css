@@ -118,6 +118,24 @@ img {
         gap: 1.5rem;
     }
 }
+@media (min-width: 768px) {
+    .boxes {
+        gap: 1.5rem;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+:root {
+    --ink: #222222;
+    --paper: #f4f4f4;
+    --accent: #234567;
+    --card: #ffffff;
+    --border: #cccccc;
+    --black: #000000;
+}
+
 
 
 
